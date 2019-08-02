@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Header } from 'semantic-ui-react';
+import { Card } from 'semantic-ui-react';
 import CustomCard from './CustomCard';
 import { content, settings } from '../config';
 
@@ -19,8 +19,9 @@ function CardHolder(props) {
   });
 
   const cardGroups = (
-    <div>
-      <Header>Personal Projects</Header>
+    <div style={{ textAlign: "center" }}>
+      <h2>Personal Projects</h2>
+      <br />
       <Card.Group itemsPerRow={settings.cardholder.itemsPerRow}>
         {cards}
       </Card.Group>

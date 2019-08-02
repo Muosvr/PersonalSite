@@ -9,7 +9,7 @@ function CustomCard(props) {
       // const capitalized = name.charAt(0).toLocaleUpperCase + name.slice(1);
       return (
         <a key={i} style={{ marginRight: "30px" }} href={props.links[name]}>
-          <Button basic color='grey'>
+          <Button inverted color='grey'>
             {name}
           </Button>
         </a>
@@ -18,7 +18,7 @@ function CustomCard(props) {
   }
 
   return (
-    <Card>
+    <Card style={{ boxShadow: "none" }}>
       {props.image &&
         <div style={{ maxHeight: "300px", overflow: "hidden", minHeight: "250px" }}>
 
@@ -27,9 +27,9 @@ function CustomCard(props) {
           </a>
         </div>
       }
-      <Card.Content>
-        <Card.Header>{props.name}</Card.Header>
-        <Card.Description>
+      <Card.Content style={{ backgroundColor: "#409393", color: "white", border: "none" }}>
+        <Card.Header style={{ color: "white" }}>{props.name}</Card.Header>
+        <Card.Description style={{ color: "white" }}>
           {props.description}
           <div style={{ marginTop: "20px" }}>
             {links}

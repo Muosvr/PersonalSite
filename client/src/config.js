@@ -78,7 +78,7 @@ const content = {
     },
     {
       name: "Planet Understanding the Amazon from Space",
-      description: "In this competition, Planet and its Brazilian partner SCCON are challenging Kagglers to label satellite image chips with atmospheric conditions and various classes of land cover/land use. Resulting algorithms will help the global community better understand where, how, and why deforestation happens all over the world - and ultimately how to respond.",
+      description: "Competition entry of multi-label classification on satellite images using convolutional neural net",
       image: files.planet,
       links: {
         repo: "https://github.com/Muosvr/planet-understanding-the-amazon-from-space/blob/master/planet-understanding-the-amazon-from-space.ipynb"
