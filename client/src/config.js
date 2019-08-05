@@ -1,15 +1,24 @@
 import files from './components/FileLoader';
 const content = {
-  sidebar: {
-    bio: "Jason is an engineer who can see from a designer’s perspective. He is passionate about product development and enjoys tackling the challenges that come with it. He believes that great products integrate the power of technology with the humanity of design.",
+  menubar: {
+    left: [
+      { text: 'Home', link: '#home', observed: true },
+      { text: 'Portfolio', link: '#portfolio', observed: true },
+      { text: 'Contact', link: '#contact', observed: true },
+      { text: 'Resume', link: '#resume' }
+    ],
+    right: [
+      { text: 'Linkedin', icon: 'linkedin', link: 'https://www.linkedin.com/in/lujason2015/' },
+      { text: 'GitHub', icon: 'github', link: 'https://github.com/Muosvr' },
+      { text: 'Medium', icon: 'medium', link: 'https://medium.com/@jasonwu_49390' },
+      { text: 'Twitter', icon: 'twitter', link: 'https://twitter.com/Muosvr' }
+    ]
+  },
+  contact: {
     image: files.portrait,
-    menu: {
-      GitHub: "https://github.com/Muosvr",
-      Resume: files.jasonsResume,
-      "Medium Articles": "https://medium.com/@jasonwu_49390",
-      Linkedin: "https://www.linkedin.com/in/lujason2015/",
-      Twitter: "https://twitter.com/Muosvr"
-    }
+    name: "Jason Wu",
+    email: "lujason2015@gmail.com",
+
   },
   cards: [
     {

@@ -8,6 +8,7 @@ import jasonsResume from '../files/JasonsResume.pdf';
 import homeCreditDefaultRisk from '../images/homeCreditDefaultRisk.JPG';
 import tradeTracker from '../images/tradeTracker.JPG';
 import planet from '../images/planet.JPG';
+import scrollDown from '../images/ScrollDown.png';
 
 const files = {
   menuTranslator,
@@ -19,7 +20,8 @@ const files = {
   jasonsResume,
   homeCreditDefaultRisk,
   tradeTracker,
-  planet
+  planet,
+  scrollDown
 }
 
 export default files;

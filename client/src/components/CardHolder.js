@@ -19,7 +19,14 @@ function CardHolder(props) {
   });
 
   const cardGroups = (
-    <div style={{ textAlign: "center" }}>
+    <div
+      id="portfolio"
+      style={{
+        textAlign: "center",
+        backgroundColor: "#e3e3e3",
+        padding: "80px"
+      }}
+    >
       <h2>Personal Projects</h2>
       <br />
       <Card.Group itemsPerRow={settings.cardholder.itemsPerRow}>
@@ -29,7 +36,11 @@ function CardHolder(props) {
 
   );
 
-  return cardGroups;
+  return (
+    <div>
+      {cardGroups}
+    </div>
+  );
 }
 
 export default CardHolder;
