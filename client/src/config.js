@@ -5,7 +5,7 @@ const content = {
       { text: 'Home', link: '#home', observed: true },
       { text: 'Portfolio', link: '#portfolio', observed: true },
       { text: 'Contact', link: '#contact', observed: true },
-      { text: 'Resume', link: '#resume' }
+      { text: 'Resume', link: files.jasonsResume, target: "_blank" }
     ],
     right: [
       { text: 'Linkedin', icon: 'linkedin', link: 'https://www.linkedin.com/in/lujason2015/' },

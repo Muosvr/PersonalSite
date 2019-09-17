@@ -51,6 +51,7 @@ class MenuBar extends Component {
           as='a'
           id={item.text + '-menu'}
           href={item.link}
+          target={item.target}
         >
           {item.text}
         </Menu.Item >
