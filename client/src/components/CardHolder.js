@@ -24,12 +24,12 @@ function CardHolder(props) {
       style={{
         textAlign: "center",
         backgroundColor: "#e3e3e3",
-        padding: "80px"
+        padding: "10vw"
       }}
     >
       <h2>Personal Projects</h2>
       <br />
-      <Card.Group itemsPerRow={settings.cardholder.itemsPerRow}>
+      <Card.Group stackable doubling itemsPerRow={settings.cardholder.itemsPerRow}>
         {cards}
       </Card.Group>
     </div>
